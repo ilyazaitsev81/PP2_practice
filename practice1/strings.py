@@ -1,10 +1,4 @@
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(a)
-b = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
-print(b)
+n=input()
+for i in n:
+    if i.isdigit():
+        print(i)
